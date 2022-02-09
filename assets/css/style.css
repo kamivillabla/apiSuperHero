@@ -1,0 +1,74 @@
+body * {
+    padding: 0;
+}
+body {
+    background: rgb(12,4,4);
+    background: linear-gradient(90deg, rgba(12,4,4,1) 2%, rgba(15,16,24,1) 45%, rgba(9,13,17,1) 100%); 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.navbar__hero {
+    background-color:  rgba(14,4,4,0.2);
+    padding: 20px 0px;
+     
+}
+
+.error-numero {
+    color:#c20000;
+    font-style: italic;
+}
+
+/*  Button hero */
+.btn__superHero {
+    border: 2px solid #c20000;
+    padding: 10px 70px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #c20000 ;
+    border-radius: 30px;
+    animation: color 0.5s, background 0.5s;
+}
+.btn__superHero:hover{
+    background-color: transparent;
+    color: whitesmoke
+}
+.btn__superHero {
+    box-shadow: inset 0 0 15px #c20000;
+}
+
+/* input */
+.form-control {
+    background-color: transparent;
+    outline: none;
+    border-radius: 30px;
+    box-shadow:  0 0 5px white;
+    transition: box-shadow 0.5s;
+
+}
+.form-control[placeholder]:focus {
+    color: whitesmoke;
+    background-color: transparent;
+    box-shadow:  0 0 4px white;
+}
+
+/* card */
+.infoHeroe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.card {
+    background-color: transparent;
+}
+
+footer {
+    background-color: rgb(12,4,4, 0.2);
+    padding: 50px 0px;
+    line-height: 10px;
+    
+}
+
