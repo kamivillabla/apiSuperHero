@@ -6,7 +6,6 @@ const formText = document.getElementById('form_text');
 form.addEventListener('submit', e => {
     e.preventDefault();
     const numForm = formText.value;
-
     const url = `https://superheroapi.com/api.php/10226070021914379/${numForm}`;
 
     fetch(url)
